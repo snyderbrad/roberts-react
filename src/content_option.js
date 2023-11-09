@@ -38,27 +38,22 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Javascript",
+        name: "Vue/Nuxt/Svelte",
         value: 85,
     },
     {
         name: "React",
-        value: 70,
-    },
-    {
-        name: "Vue/Nuxt/Svelte",
-        value: 65,
+        value: 80,
     },
     {
         name: "Postgres/Mongo",
-        value: 60,
+        value: 75,
     },
 ];
 
-const services = [{
+const interests = [{
         title: "Full Stack Development",
-        description: "In my career I have maintained and developed Python and Java full stack applications ",
-    },
+        description: "In my career I have maintained and developed Python and Java applications. High level languages are something I like to study and stay up to date on what the industry standard might be tomorrow."   },
     {
         title: "Front End Frameworks",
         description: "I am always exploring the various Javascript frameworks and libraries to maintain efficiency when building user interfaces.",
@@ -69,6 +64,13 @@ const services = [{
     },
 ];
 
+
+const school = [
+    {
+        name: 'The University of Akron', graduation_year: '2019',
+        degree: 'Bachelor of Science in Computer Science'
+    }]
+
 const dataportfolio = [{
         img: "images/banner2.jpg",
         description: "Single page app made for a family member's business",
@@ -77,8 +79,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "bradleysnyder358@gmail.com",
-    YOUR_PHONE: "(555)123-4567",
+    YOUR_EMAIL: "1bradleysnyder@gmail.com",
     description: "Developer with four years of professional experience",
     // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -97,8 +98,9 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialProfiles,
+    interests,
+    school
 };

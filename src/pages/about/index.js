@@ -7,7 +7,8 @@ import {
   meta,
   worktimeline,
   skills,
-  services,
+  interests,
+  school
 } from "../../content_option";
 
 export const About = () => {
@@ -37,7 +38,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work History</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -81,14 +82,30 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Areas of Interest</h3>
           </Col>
           <Col lg="7">
-            {services.map((data, i) => {
+            {interests.map((data, i) => {
               return (
-                <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                <div className="interest_ py-4" key={i}>
+                  <h5 className="interest_title">{data.title}</h5>
+                  <p className="interest_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">School</h3>
+          </Col>
+          <Col lg="7">
+            {school.map((data, i) => {
+              return (
+                <div className="school_ py-4" key={i}>
+                  <p className="school_degree">{data.degree}</p>
+                  <p className="school_name">{data.name}</p>
+                  <p className="school_year">Graduation Year: {data.graduation_year}</p>
                 </div>
               );
             })}

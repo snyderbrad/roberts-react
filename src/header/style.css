@@ -1,20 +1,21 @@
 .site__header {
+    width: 100vw;
     top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.menu__button {
+.menu_button {
     color: var(--text-color);
 }
 
-.menu__button:focus,
-.menu__button:hover {
+.menu_button:focus,
+.menu_button:hover {
     color: var(--text-color);
     box-shadow: unset;
 }
 
-.menu__button svg {
+.menu_button svg {
     width: 2em;
     height: 2em;
     fill: var(--text-color-2);
@@ -174,13 +175,13 @@
 .the_menu .menu_item>a {
     color: var(--text-color-2);
     line-height: 1;
-    font-size: 2rem;
+    font-size: 4rem;
     display: inline-block;
     position: relative;
     transition: color 250ms cubic-bezier(0, 0, 0.58, 1) 0s;
     padding: 4px 0px;
     text-decoration: none;
-    font-family: Marcellus;
+    font-family: 'Raleway', sans-serif;
 }
 
 .the_menu .menu_item>a:hover {
