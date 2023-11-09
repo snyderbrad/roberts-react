@@ -81,11 +81,10 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "1bradleysnyder@gmail.com",
     description: "Developer with four years of professional experience",
-    // creat an emailjs.com account
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_rg7mq1p",
+    YOUR_TEMPLATE_ID: "template_8j5n7g9",
+    YOUR_USER_ID: "1bradleysnyder@gmail.com",
+    YOUR_PUBLIC_KEY: "icS1IljGVhebfbo-N"
 };
 
 const socialProfiles = {
