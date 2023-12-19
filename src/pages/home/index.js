@@ -23,6 +23,9 @@ export const Home = () => {
                 style={{ backgroundImage: `url(${img})` }}
               ></div>
               <div
+                className="space_for_mobile"
+              ></div>
+              <div
                 className="cleveland_image"
                 style={{ backgroundImage: `url(${img2})`}}
               ></div>
