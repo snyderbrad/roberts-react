@@ -1,6 +1,6 @@
 const meta = {
-    title: "Bradley Snyder",
-    description: "I'm a Software Developer currently working at PEL Supply.",
+    title: "Roberts Next Door",
+    description: "Production in Film Media Services in the Greater Los Angeles Area.",
 };
 
 const introdata = {
@@ -15,7 +15,8 @@ const dataabout = {
 
 const dataportfolio = [{
         description: "Vengence turns volume one",
-        link: "https://tubitv.com/movies/100009417/vengeance-turns-volume-one"
+        link: "https://tubitv.com/movies/100009417/vengeance-turns-volume-one",
+        img: "images/vengence.webp",
     },
 ];
 
@@ -34,9 +35,61 @@ const socialProfiles = {
 
 
 };
+const worktimeline = [
+    {
+        jobtitle: "Application/Web Developer",
+        where: "PEL Supply",
+        date: "2022",
+    },
+    {
+        jobtitle: "Software Developer",
+        where: "Open Practice",
+        date: "2019",
+    },
+];
+const skills = [{
+        name: "Pr",
+        value: 90,
+    },
+    {
+        name: "Java",
+        value: 90,
+    },
+    {
+        name: "SQL",
+        value: 90,
+    },
+    {
+        name: "Vue/Nuxt/Svelte",
+        value: 85,
+    },
+    {
+        name: "React",
+        value: 80,
+    },
+    {
+        name: "Postgres/Mongo",
+        value: 75,
+    },
+];
+const interests = [{
+        title: "Full Stack Development",
+        description: "In my career I have maintained and developed Python and Java applications. High level languages are something I like to study and stay up to date on what the industry standard might be tomorrow."   },
+    {
+        title: "Front End Frameworks",
+        description: "I am always exploring the various Javascript frameworks and libraries to maintain efficiency when building user interfaces.",
+    },
+    {
+        title: "Data Engineering",
+        description: "I am proficient with maintaining and improving one of the most important assets of a business.",
+    },
+];
 export {
     meta,
+    worktimeline,
+    interests,
     dataabout,
+    skills,
     dataportfolio,
     contactConfig,
     socialProfiles,

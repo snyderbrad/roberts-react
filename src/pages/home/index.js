@@ -4,9 +4,9 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import img from '../../assets/images/robert.jpg'
-import img2 from '../../assets/images/rob.jpg'
-
+import img from '../../assets/images/Robert_Headshot.jpeg'
+import img2 from '../../assets/images/rob2.jpg'
+import video from '../../assets/images/1080_robers_logo_animation.webm'
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -31,29 +31,37 @@ export const Home = () => {
               ></div>
             </div>
             <div className="text order-1 order-lg-1 h-100 d-lg-flex justify-content-center">
-            <div className="align-self-center">
-              <div className="intro mx-auto">
-                <h2 className="mb-1x">{introdata.title}</h2>
-                <p className="mb-1x">{introdata.description}</p>
-                <div className="intro_btn-action pb-5">
-                  <Link to="/about" className="text_2">
-                    <div id="button_p" className="ac_btn btn">
-                        About
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
+                <div className="align-self-center">
+                  <div className="intro mx-auto">
+                    <h2 className="mb-1x">{introdata.title}</h2>
+                    <p className="mb-1x">{introdata.description}</p>
+                    <div className="intro_btn-action pb-5">
+                      <Link to="/about" className="text_2">
+                        <div id="button_p" className="ac_btn btn">
+                            About
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </Link>
+                      <Link to="/contact">
+                        <div id="button_h" className="ac_btn btn">
+                          Contact
+                          <div className="ring one"></div>
+                          <div className="ring two"></div>
+                          <div className="ring three"></div>
+                        </div>
+                      </Link>
                     </div>
-                  </Link>
-                  <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
-                      Contact
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
-                </div>
               </div>
+      {/*
+                    <div className="text order-1">
+                     <video  width="320" height="240" controls autoplay>
+                          <source src='../../assets/images/1080_robers_logo_animation.webm' type="video/webm"/>
+                          <source src='../../assets/images/1080_robers_logo_animation.mp4' type="video/"/>
+                    </video>
+                    </div>
+*/}
             </div>
           </div>
         </div>
