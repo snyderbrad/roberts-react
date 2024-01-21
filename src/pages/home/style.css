@@ -232,7 +232,33 @@ section {
 .space_for_mobile {
     display: none;
 }
-@media (max-width:991.98px) {
+@media (max-width:515px) {
+    .space_for_mobile {
+        display: block;
+        height: 50vh;
+        flex: 2 4 auto;
+    }
+    .intro_sec .headshot_image .block {
+        top: unset;
+        bottom: 0;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .photo_section {
+        width: 100vw;
+        padding-top: 5vh;
+        max-height: 100vh;
+    }
+    .intro {
+        position: absolute;
+        top: 55vh;
+    }
+    .home {
+        max-height: 100vh;
+    }
+}
+@media (max-width:991.98px) and (min-width: 515px) {
     .intro_sec .headshot_image .block {
         top: unset;
         bottom: 0;
@@ -247,7 +273,7 @@ section {
     }
     .space_for_mobile {
         display: block;
-        height: 20vh;
+        height: 75vh;
         flex: 2 4 auto;
     }
     .intro {

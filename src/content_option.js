@@ -1,3 +1,4 @@
+
 const meta = {
     title: "Roberts Next Door",
     description: "Production in Film Media Services in the Greater Los Angeles Area.",
@@ -15,14 +16,24 @@ const dataabout = {
 
 const dataportfolio = [{
         description: "Vengence turns volume one",
-        link: "https://tubitv.com/movies/100009417/vengeance-turns-volume-one",
-        img: "images/vengence.webp",
+        link: "http://www.vengeanceturns.com/",
+        img: "./src/assets/images/vengence.webp"
+    },
+    {
+        description: "rob banks imdb",
+        link: "https://www.imdb.com/name/nm6887165/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_rob%2520banks",
+        img: "{img}"
+    },
+    {
+        description: "Robert Christopher imdb",
+        link: "https://www.imdb.com/name/nm8314010/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_robert%2520christopher%2520smith",
+        img: "{img}"
     },
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "robertsnextdoor@gmail.com",
-    description: "Please send any correspondence to ",
+    description: "Please contact us using the form.",
     YOUR_SERVICE_ID: "service_rg7mq1p",
     YOUR_TEMPLATE_ID: "template_8j5n7g9",
     YOUR_USER_ID: "1bradleysnyder@gmail.com",
