@@ -33,7 +33,7 @@ export const Home = () => {
             <div className="text order-1 order-lg-1 h-100 d-lg-flex justify-content-center">
                 <div className="align-self-center">
                   <div className="intro mx-auto">
-                    <video width="100%" height="auto" controls="controls" autoplay="true" loop="true">
+                    <video width="100%" height="auto" controls="controls" autoplay="true" muted="true" loop="true">
                       <source src={video} type="video/webm" />
                     </video>
                     <h2 className="mb-1x">{introdata.title}</h2>
@@ -57,14 +57,6 @@ export const Home = () => {
                       </Link>
                     </div>
               </div>
-      {/*
-                    <div className="text order-1">
-                     <video  width="320" height="240" controls autoplay>
-                          <source src='../../assets/images/1080_robers_logo_animation.webm' type="video/webm"/>
-                          <source src='../../assets/images/1080_robers_logo_animation.mp4' type="video/"/>
-                    </video>
-                    </div>
-*/}
             </div>
           </div>
         </div>

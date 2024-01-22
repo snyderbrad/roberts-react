@@ -41,8 +41,8 @@ const contactConfig = {
 };
 
 const socialProfiles = {
-    instagram: "https://www.instagram.com/comicrobbanks/",
-    instagram: "https://www.instagram.com/onlyrobertcsmith/"
+    robinstagram: "https://www.instagram.com/comicrobbanks/",
+    robertinstagram: "https://www.instagram.com/onlyrobertcsmith/"
 
 
 };
