@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import { VscListFilter, VscClose } from "react-icons/vsc";
+import { VscListFilter, VscClose, VscCoffee } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { socialProfiles } from "../content_option";
 import Themetoggle from "../components/themetoggle";
@@ -22,6 +22,9 @@ const Headermain = () => {
             {!isActive ? <VscListFilter /> : <VscListFilter />}
           </button>
           <Themetoggle/>
+          <Link to="https://spreadthemovie.printful.me/">
+            <button className="menu_button nav_ac">Buy our merch!<VscCoffee/></button>
+          </Link>
           </div>
         </div>
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
@@ -41,6 +44,9 @@ const Headermain = () => {
                   <li className="menu_item">
                       <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
+                  <Link to="https://spreadthemovie.printful.me/">
+                    <button className="menu_button nav_ac">Buy our merch!<VscCoffee/></button>
+                  </Link>
                 </ul>
               </div>
             </div>
