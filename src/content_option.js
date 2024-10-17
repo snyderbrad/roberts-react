@@ -14,8 +14,19 @@ const dataabout = {
     aboutme: "Founded in 2023 by Robert Christopher Smith and Robert Banks. Under our leadership and the combined experince of 30 years in the industry of entertainemnt from Stand-up comedy, Acting, Directing, and Writing to the buisness side of filmmaking. We know what it takes to make a story succesful and affordable. We have established a group of incredible people who put their hearts in their work and get the job done. Smith and Banks met in a acting class at Berg Studios and have collaborated on multiple projects ranging from Independent Feature Films like Spread: Pigs To Slaughter, a one act play: Killer Session, and much more that is soon to be announced! ",
 };
 
-const dataportfolio = [{
-        description: "Vengence turns volume one",
+const dataportfolio = [
+    {
+        description: "Vengence Turns Volume One Website",
+        link: "http://www.vengeanceturns.com/",
+        img: "./src/assets/images/vengence.webp"
+    },
+    {
+        description: "Vengence Turns Volume One Tubi",
+        link: "http://www.vengeanceturns.com/",
+        img: "./src/assets/images/vengence.webp"
+    },
+    {
+        description: "Vengence Turns Volume Two",
         link: "http://www.vengeanceturns.com/",
         img: "./src/assets/images/vengence.webp"
     },
@@ -83,22 +94,10 @@ const skills = [{
         value: 75,
     },
 ];
-const interests = [{
-        title: "Full Stack Development",
-        description: "In my career I have maintained and developed Python and Java applications. High level languages are something I like to study and stay up to date on what the industry standard might be tomorrow."   },
-    {
-        title: "Front End Frameworks",
-        description: "I am always exploring the various Javascript frameworks and libraries to maintain efficiency when building user interfaces.",
-    },
-    {
-        title: "Data Engineering",
-        description: "I am proficient with maintaining and improving one of the most important assets of a business.",
-    },
-];
+
 export {
     meta,
     worktimeline,
-    interests,
     dataabout,
     skills,
     dataportfolio,

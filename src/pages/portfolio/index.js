@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 import vengence from '../../assets/images/vengence.webp'
+import vengence2 from '../../assets/images/vengence-2.webp'
 import rob from '../../assets/images/rob.jpg'
 import robert from '../../assets/images/robert.jpg'
 export const Portfolio = () => {
@@ -23,17 +24,33 @@ export const Portfolio = () => {
         </Row>
         <div className="mb-5 po_items_ho">
               <div className="po_item">
-                <img src={vengence} alt="" />
+                <img src="https://new.express.adobe.com/webpage/lfEvC14hMrqyu/resources/9f33da7e-1dbc-41e7-8a4a-e872a9b2cd21-1024px?asset_id=9f33da7e-1dbc-41e7-8a4a-e872a9b2cd21" alt="" />
                 <div className="content">
                   <p>Vengence turns volume one</p>
-                  <a href="http://www.vengeanceturns.com/">view project</a>
+                  <a href="http://www.vengeanceturns.com/">view</a>
                 </div>
               </div>
+              <div className="po_item">
+                <img src={vengence} alt="" />
+                <div className="content">
+                  <p>Vengence turns volume one (Tubi)</p>
+                  <a href="https://tubitv.com/movies/100022210/vengeance-turns-volume-one">view</a>
+                </div>
+              </div>
+              <div className="po_item">
+                <img src={vengence2} alt="" />
+                <div className="content">
+                  <p>Vengence Turns Volume Two (Tubi)</p>
+                  <a href="https://tubitv.com/movies/100022210/vengeance-turns-volume-two">view</a>
+                </div>
+              </div>
+      </div>
+        <div className="mb-5 po_items_ho">
               <div className="po_item">
                 <img src={robert} alt="" />
                 <div className="content">
                   <p>Robert Christopher IMDb</p>
-                  <a href="https://www.imdb.com/name/nm8314010/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_robert%2520christopher%2520smith">view project</a>
+                  <a href="https://www.imdb.com/name/nm8314010/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_robert%2520christopher%2520smith">view</a>
                 </div>
               </div>
               <div className="po_item">
